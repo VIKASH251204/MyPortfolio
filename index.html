@@ -11,19 +11,39 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css">
   </head>
+
+  <body>
+    <div class="container-menu">
+      <div class="menu" popover>
+        <ul>
+              <li class="list"><a href="#home">Home</a></li>
+              <li class="list"><a href="#about">About</a></li>
+              <li class="list"><a href="#skill">Portfolio</a></li>
+              <li class="list"><a href="#service">Service</a></li>
+              <li class="list"><a href="#contact">Contact</a></li>
+        </ul>
   
+      </div>
+    </div>
+
+    <!-- page start -->
       <nav class="navbar">
         <a href="#" class="logo">Portfolio</a>
         <ul>
+            <a href="#" id="menu-icon" style="display: block;"><i class="fa-solid fa-bars" style="color: #fff; font-size: 30px;" ></i></a>
             <li class="active"><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skill">Portfolio</a></li>
             <li><a href="#service">Service</a></li>
             <li><a href="#contact">Contact</a></li>
+            
+            
         </ul>
+        
         
       </nav>
     
@@ -115,7 +135,7 @@
 
            <h1 class="sub-title">My <span>Skills</span></h1>
 
-           <section>
+           <section class="skill-container1">
             <div class="container1" id="skills">
               <h1 class="heading1">Technical Skills</h1>
               <div class="technical-bars">
@@ -206,7 +226,7 @@
            <!-- Project Section Start -->
 
 
-           <section>
+           <section class="Portfolio-project">
             <div id="Portfolio" id="project">
               <div class="main-text" id="project">
                 <h2>Latest <span>Project</span></h2>
@@ -233,7 +253,7 @@
                       <p>This is my second project, in this also I have designed the front page of YouTube. 
                         In this also I have taken HTML and CSS.</p>
 
-                         <a href="https://github.com/VIKASH251204/https---github.com-VIKASH251204-Youtube.git"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #7cf03d;"></i></a>
+                         <a href="https://vikash251204.github.io/Youtubecopy/"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #7cf03d;"></i></a>
                     </div>
                   </div>
 
@@ -288,6 +308,6 @@
 
             
 
-          
+         <script src="main.js"></script> 
   </body>
 </html>

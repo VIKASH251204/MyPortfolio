@@ -6,6 +6,38 @@
     font-family: 'poppins', sans-serif;
 }
 
+
+.menu{
+    width: 200px;
+    background-color: #1F242D;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 10px;
+    position: absolute;
+    left: 440px;
+    top: 80px;
+    box-shadow: 0 0 20px #7cf03d;
+    display: none;
+    
+   
+    
+}
+
+.menu ul li{
+    margin-top: 10px;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+.menu ul li:hover{
+    background-color: #000000;
+}
+
+
+/* page start css */
 body{
     background: #1F242D;
 }
@@ -40,6 +72,10 @@ a{
     list-style: none;
     margin-left: 35px;
 }
+
+
+
+
 
 .navbar ul li a{
     font-size: 20px;
@@ -139,6 +175,27 @@ a{
     color: #7cf03d;
     box-shadow: none;
 }
+
+.btn-box{
+    padding: 12px 28px;
+    background: #7cf03d;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 1;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #7cf03d, 0 0 25px #7cf03d;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px #7cf03d,
+    0 0 25px #7cf03d, 0 0 50px #7cf03d,
+    0 0 100px #7cf03d, 0 0 200px #7cf03d;
+}
+
 
 .home-info .btn-sci .sci{
     margin-left: 20px;
@@ -370,6 +427,8 @@ section{
     padding: 50px 70px;
     margin-left: 100px;
 }
+
+
 
 .heading1{
     text-align: center;
