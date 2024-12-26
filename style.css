@@ -15,7 +15,7 @@
     padding: 50px 0px;
     border-radius: 10px;
     position: absolute;
-    left: 440px;
+    left: 400px;
     top: 80px;
     box-shadow: 0 0 20px #7cf03d;
     display: none;
@@ -59,6 +59,10 @@ a{
  z-index: 100;
 }
 
+#menu-icon{
+    display: none;
+}
+
 .navbar .logo{
     font-size: 30px;
     font-weight: 700;
@@ -96,6 +100,7 @@ a{
     color: #fff;
 
 }
+
 
 .home-info h1{
     font-size: 55px;
@@ -329,10 +334,12 @@ a{
 }
 
 .service{
+    width: 100%;
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
+    
 
 }
 
