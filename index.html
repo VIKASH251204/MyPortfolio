@@ -10,49 +10,43 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css" />
   </head>
 
   <body>
-    <div class="container-menu">
-      <div class="menu" popover>
-        <ul>
-          <li class="list"><a href="index.html">Home</a></li>
-          <li class="list"><a href="#about">About</a></li>
-          <li class="list"><a href="#skill">Portfolio</a></li>
-          <li class="list"><a href="#service">Service</a></li>
-          <li class="list"><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
+    <div class="div" style="width: 20%; margin-top: 10px; height: 500px; position: fixed; left: 620px;">
+      <button class="menu-button" id="menuButton" onclick="toggleMenu()"><i class="fa-solid fa-bars" style="color: #fff; font-size: 40px;margin-top: 5px;"></i></button>
+      <button class="close-button" id="closeButton" onclick="toggleMenu()"><i class="fa-solid fa-xmark" style="color: #fff;font-size: 40px;"></i></button>
+      <div class="menu2" id="menu2">
+          <ul>
+            <li class="list2"><a href="#home">Home</a></li>
+            <li class="list2"><a href="#about">About</a></li>
+            <li class="list2"><a href="#skill">Portfolio</a></li>
+            <li class="list2"><a href="#service">Service</a></li>
+            <li class="list2"><a href="#contact">Contact</a></li>
+          </ul>
+      </div>  </div>
 
+    
     <!-- page start -->
     <nav class="navbar">
       <a href="#" class="logo">Portfolio</a>
       <ul>
-        <button
-          id="menu-icon" style="background-color: black; border: none;"
-        >
-          <i class="fa-solid fa-bars" style="color: #fff; font-size: 30px"></i>
-        </button>
-        <li class="active"><a href="#home">Home</a></li>
+        <li ><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Portfolio</a></li>
         <li><a href="#service">Service</a></li>
         <li><a href="#contact">Contact</a></li>
-      </ul>
+      </ul>  
+    </div>
+    
+    
     </nav>
 
-    <div class="home">
+    <div class="home" id="home">
       <div class="home-info">
         <h1>Vikash Tailor</h1>
         <h2>
@@ -275,8 +269,7 @@
                 </p>
 
                 <a href="https://vikash251204.github.io/Youtubecopy/"
-                  ><i
-                    class="fa-solid fa-arrow-up-right-from-square"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"
                     style="color: #7cf03d"
                   ></i
                 ></a>

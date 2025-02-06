@@ -7,34 +7,6 @@
 }
 
 
-.menu{
-    width: 200px;
-    background-color: #1F242D;
-    font-size: 20px;
-    text-align: center;
-    padding: 50px 0px;
-    border-radius: 10px;
-    position: absolute;
-    left: 400px;
-    top: 80px;
-    box-shadow: 0 0 20px #7cf03d;
-    display: none;
-    
-   
-    
-}
-
-.menu ul li{
-    margin-top: 10px;
-    list-style: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    
-    
-}
-.menu ul li:hover{
-    background-color: #000000;
-}
 
 
 /* page start css */
@@ -57,6 +29,7 @@ a{
  justify-content: space-between;
  align-items: center;
  z-index: 100;
+ 
 }
 
 #menu-icon{
@@ -916,6 +889,62 @@ section{
     padding: 10px;
     border-radius: 0.5rem;
 }
+
+
+.menu-button, .close-button {
+    background-color: #1F242D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.menu-button:hover, .close-button:hover {
+    background-color: #0056b3;
+}
+.menu2{
+    display: none;
+    background: #1F242D;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 70px;
+    box-shadow: 0 0 20px #7cf03d;    
+}
+
+
+.menu2 ul {
+    list-style: none;
+    padding: 0;
+}
+.menu2 ul li {
+    padding: 5px 0;
+}
+.close-button {
+    display: none;
+}
+
+.list2{
+     font-size: 30px;
+     text-align: center;
+     box-shadow: 0 0 10px #7cf03d;
+     margin-top: 20px;
+     border-radius: 10px;
+     
+     
+
+}
+
+.list2:hover{
+    color: #7cf03d;
+    border-bottom: red;
+}
+
 
 
 

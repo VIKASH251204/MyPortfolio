@@ -1,290 +1,51 @@
-@media (max-width: 1024px){
+@media only screen and (max-width: 800px){
 
-    .container1{
-        padding: 40px 20px;
-        margin-left: 0px;
+    .navbar ul{
+        display: none;
     }
 
-    .portfolio-content{
-        padding-left: 100px;
-    }
-
-    .main-text h2{
-        padding-left: 200px;
-    }
-    .contact-text h2{
-        font-size: 75px;
-    }
-
-    .container{
-        padding: 0;
-    }
-    .home{
-        height: 90vh;
-    }
-
-}
-
-
-
-@media (max-width: 769px){
     .navbar{
-        padding: 25px 7%;
-    }
-    .home-info h2{
-        font-size: 28px;
-    }
-    .btn{
-        font-size: 9px;
-        padding: 10px 28px;
-    }
-
-    
-        
-
-    .main-text h2{
-        padding-left: 100px;
-    }
-    .row img{
-        width: 80%;
-    }
-
-    .portfolio-content{
-        padding-left: 180px;
-    }
-    .contact-text h2{
-        font-size: 60px;
-    }
-
-
-
-    
-}
-
-@media (max-width: 450px){
-    
-    #menu-icon{
-        display: block;
-    }
-
-    
-    .navbar ul li{
-        display: none;
-    }
-
-    .home-img .img-box{
-        width: 80vh;
-        height: 80vh;
-        margin-top: 40px;           
+        width: 70%;
     }
 
     .home{
-        display: block;
-        padding-left: 100px;
-        width: 600px;
-        margin-top: 30px;
-        margin-bottom: 300px;
+        flex-direction: column-reverse;
+        height: 70vh;
     }
 
-    .about{
-        display: block;
-        margin-bottom: 500px;
-        padding-left: 70px;
+    .home-img{
+        width: 100px;
+        height: 300px;
     }
 
-    .img-about{
+    .home-img .img-box .img-item{
+        width: 160%;
+        height: 140%;
+        
+    }
+
+    .img-box{
+        width: 160%;
+        height: 200%;
+    }
+
+    .img-item{
+        width: 160%;
+        height: 200%;
+    }
+
+    
+
+
+
+   
+    
+    
+}
+
+@media only screen and (min-width: 800px){
+    .div{
         display: none;
     }
-
-    .about-text{
-        width: 100vh;
-    }
-
-    .about-text h2{
-        text-align: center;
-    }
-
-    .container{
-        padding: 0;
-        margin-top: -400px;
-        width: 100vh;
-        margin-left: 50px;
-    }
-
-    .sub-title{
-        width: 100vh;
-       margin-left: 50px;
-       padding-bottom: 40px;
-    }
-
-    .services-list{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        margin-left: 50px;
-    }
-
-    .container1{
-        width: 100vh;
-        height: 500px;
-        margin-left: 70px;
-    }
-
-    .skill-container1{
-        width: 100vh;
-    }
-
-    .Portfolio-project{
-        width: 100vh;
-    }
-
-    .row img {
-        width: 100%;
-    }
-
-    .portfolio-content {
-     padding-left: 60px;
-    }
-
-    .contact{
-        width: 100vh;
-        display: grid;
-       grid-template-columns: repeat(1, 1fr);
-       padding-left: 50px;
-
-    }
-
-    .last-text{
-        width: 115vh;
-    }
-
-    
-    
 }
-
-@media (max-width: 321px){
-    .last-text{
-        width: 125.5vh;
-    }
-
-    
-
-
-    
-}
-
-@media (max-width: 431px){
-       
-    .services-list{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-        margin-left: 50px;
-    }
-
-    .heading1{
-        margin-top: 50px;
-    }
-
-   
-
-    
-}
-
-
-@media(max-width: 912px){
-
-   
-    .portfolio-content{
-        padding-left: 50px;
-    }
-
-    .main-text h2{
-        padding-left: 50px;
-    }
-
-
-    
-}
-
-@media (max-width: 412px){
-    .about{
-         position: relative;
-         top: 400px;
-    }
-
-    .container{
-        margin-top: 0;
-    }
-
-    .home-info{
-        width: 100vh;
-    }
-
-    .menu{
-        left: 700px;
-    }
-
-}
-
-@media (max-width: 854px){
-    .btn{
-        padding: 0;
-    }
-
-    .sub-title{
-        margin-top: 20px;
-    }
-
-    .services-list{
-        display: block;
-    }
-
-    .container1{
-        margin-left: 180px;
-    }
-
-    .row img {
-        width: 80%;
-
-    }
-
-    .layer{
-        width: 82%;
-    }
-    .main-text h2{
-        padding-left: 50px;
-    }
-    .contact-text h2{
-        font-size: 72px;
-    }
-
-    .container1{
-        margin-left: 110px;
-    }
-
-    .row img {
-        width: 80%;
-
-    }
-
-    .layer{
-        width: 82%;
-    }
-    .main-text h2{
-        padding-left: 50px;
-    }
-
-    .portfolio-content{
-        padding-left: 130px;
-    }
-
-}
-
-    
-
-
-
-
-
-
-    
 
