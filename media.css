@@ -10,36 +10,59 @@
 
     .home{
         flex-direction: column-reverse;
-        height: 70vh;
+        height: 80vh;
+        padding-top: 80px;
     }
 
-    .home-img{
-        width: 100px;
-        height: 300px;
-    }
 
-    .home-img .img-box .img-item{
-        width: 160%;
-        height: 140%;
+    .home-img .img-box{
+        width: 40vh;
+        height: 40vh;
+        
         
     }
 
-    .img-box{
-        width: 160%;
-        height: 200%;
+    .home-info{
+        margin-top: 40px;
     }
 
-    .img-item{
-        width: 160%;
-        height: 200%;
+    .about{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 40px;
     }
 
-    
+    .container{
+        padding: 0;
+        
+    }
 
+    .sub-title{  
+      margin-top: 50px;
+    }
 
+    .container1{
+        width: 700px;
+        margin-left: 70px;
 
-   
-    
+    }
+
+    .sub-title{
+        padding-bottom: 0;
+    }
+
+    .main-text h2{
+        padding-left: 0;
+    }
+
+    .portfolio-content {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 30px;
+    }
+
+    .contact-text h2{
+        font-size: 68px;
+    }   
     
 }
 
